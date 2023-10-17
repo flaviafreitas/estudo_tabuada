@@ -1,0 +1,46 @@
+body{
+    background-color: #ffba6a;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+h1{
+    font-size: 40px;
+}
+
+section{
+    background-color: #e6ccef;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+}
+
+.button{
+    background-color: #af69cd;
+    color: #ffff;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #303030;
+    color: #ffff;
+}
+
+.input_box{
+    margin: 8px;
+    border-radius: 10px;
+    border-style: none;
+    height: 20px;
+    width: 200px;
+}

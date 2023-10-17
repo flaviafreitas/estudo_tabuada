@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/tabuada.webp" width="110">
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>Qual tabuada você deseja saber? <br>
+                <input type="number" class="input_box" id="num">
+            </p>
+            <p>Até qual número você deseja saber? <br>
+                <input type="number" class="input_box" id="end">
+            </p>
+            <p>
+                <input type="button" value="Calcular" class="button" onclick="Calcular()">
+            </p>
+        </div>
+        <div id="resposta">
+            Preencha os valores acima!
+        </div>
+    </section>
+    <script src="tabuada.js"></script>
+</body>
+</html>
